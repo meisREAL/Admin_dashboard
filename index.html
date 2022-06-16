@@ -7,12 +7,131 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin dashboard</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.6.96/css/materialdesignicons.min.css
+    ">
 </head>
 
 <body>
-    <header></header>
-    <nav></nav>
-    <div class="main-content"></div>
+    <header>
+        <div class="search">
+            <input type="text" name="search" id="search">
+        </div>
+        <div class="person">
+            <span class="mdi mdi-bell-ring-outline"></span>
+            <img src="https://images.unsplash.com/photo-1571659315127-8e882c129e0b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=716&q=80"
+                width="75px" height="75px">
+            <p>User Name</p>
+        </div>
+        <div class="greeting">
+            <img src="https://images.unsplash.com/photo-1571659315127-8e882c129e0b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=716&q=80"
+                width="100px" height="100px">
+            <div class="greet-text">
+                <p>Hi there,</p>
+                <h3>User Name</h3>
+            </div>
+        </div>
+        <div class="buttons">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+        </div>
+    </header>
+
+    <nav>
+        <div>
+            <h1>Dashboard</h1>
+        </div>
+        <div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Messages</a></li>
+                <li><a href="#">History</a></li>
+                <li><a href="#">Tasks</a></li>
+                <li><a href="#">Communities</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Privacy</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="main-content">
+        <div class="projects">
+            <div class="card">
+                <h4>Super Cool Project</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at dui vulputate, euismod diam quis,
+                    tristique diam. Vestibulum elementum ex in mi sagittis, at efficitur est dignissim. Mauris mollis
+                    erat eu iaculis tempus.</p>
+            </div>
+            <div class="card">
+                <h4>Less Cool Project</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor blandit efficitur. Nam
+                    feugiat libero ex, non blandit elit vestibulum sit amet. Donec condimentum vestibulum sem non
+                    blandit.</p>
+            </div>
+            <div class="card">
+                <h4>Impossible App</h4>
+                <p>Vestibulum at nulla a lacus auctor varius eu id neque. In blandit, leo non sagittis imperdiet, libero
+                    neque iaculis nunc, sit amet molestie nunc diam sit amet tellus.</p>
+            </div>
+            <div class="card">
+                <h4>Easy Peasy App</h4>
+                <p>Etiam ligula lectus, mattis id euismod nec, mollis eu quam. Vivamus convallis, orci ut egestas
+                    maximus, dolor velit ornare massa, ut eleifend magna felis vel nisl. Praesent ornare dignissim
+                    sapien sed tincidunt.</p>
+            </div>
+            <div class="card">
+                <h4>Ad Blocker</h4>
+                <p>Praesent faucibus auctor varius. Nam posuere neque vitae est congue, id congue nisl pretium. Aliquam
+                    dolor sem, dignissim sed vestibulum vitae, ultrices quis leo.</p>
+            </div>
+            <div class="card">
+                <h4>Money Maker</h4>
+                <p>Sed dapibus maximus consectetur. Etiam finibus nulla et enim gravida, consequat viverra lacus
+                    maximus.</p>
+            </div>
+        </div>
+        <div class="other-info">
+            <div class="announcements">
+                <div class="announcement">
+                    <h5>Site Maintenance</h5>
+                    <p>Sed ut quam fermentum, congue massa a, porta sem. Mauris pharetra felis a tellus molestie congue.
+                    </p>
+                </div>
+                <div class="announcement">
+                    <h5>Community share day</h5>
+                    <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                </div>
+                <div class="announcement">
+                    <h5>Updated Privacy Policy</h5>
+                    <p>Aliquam non congue metus. Aliquam ut felis sed eros molestie euismod id id est.</p>
+                </div>
+            </div>
+            <div class="trending">
+                <div class="trend-info">
+                    <h6>@tegan</h6>
+                    <p>World Peace Bilder</p>
+                </div>
+                <div class="trend-info">
+                    <h6>@morgan</h6>
+                    <p>Another Super Cool Project</p>
+                </div>
+                <div class="trend-info">
+                    <h6>@kendall</h6>
+                    <p>Life Changing App</p>
+                </div>
+                <div class="trend-info">
+                    <h6>@alex</h6>
+                    <p>No Traffic Maker</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

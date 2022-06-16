@@ -1,0 +1,49 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 3fr;
+}
+
+nav {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr;
+    border: 1px solid black;
+}
+
+header {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.main-content {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    border: 1px solid green;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+div img {
+    border-radius: 50%;
+}
+
+.person {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.greeting {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
