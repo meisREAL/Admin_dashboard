@@ -55,6 +55,30 @@ header {
     grid-template-rows: repeat(2, 1fr);
 }
 
+.search {
+    display: grid;
+    grid-template-columns: 1fr 20fr;
+    align-items: center;
+}
+
+.search input {
+    margin-top: -25px;
+    height: 24px;
+    width: 85%;
+    border-radius: 15px;
+    background-color: #e5e7eb;
+    border: white;
+    padding: 5px;
+    grid-column: 2 / 3;
+}
+
+.search span {
+    font-size: 24px;
+    grid-column: 1 / 2;
+    margin-top: -25px;
+    margin-left: 5px;
+}
+
 .main-content {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
