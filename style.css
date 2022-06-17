@@ -49,7 +49,6 @@ nav ul li a:hover {
 header {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    border: 1px solid red;
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: repeat(2, 1fr);
@@ -79,6 +78,70 @@ header {
     margin-left: 5px;
 }
 
+.person {
+    display: grid;
+    /* grid-template-columns: 1fr 30fr 1fr; */
+    align-items: center;
+}
+
+.person span {
+    font-size: 28px;
+    transition: .3s;
+    grid-column: 1 / 2;
+    margin-left: 80px;
+}
+
+.person span:hover {
+    font-size: 38px;
+    color: #4f46e5;
+}
+
+.person img {
+    grid-column: 2 / 3;
+}
+
+.person p {
+    grid-column: 3 / 4;
+    font-weight: bold;
+}
+
+.greeting {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    align-items: center;
+}
+
+.greeting img {
+    margin-right: 10px;
+    justify-self: end;
+    margin-bottom: 10px;
+}
+
+greet-text {
+    margin-left: 0;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons button {
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #0284c7;
+    color: white;
+    font-family: inherit;
+    font-size: 18px;
+}
+
+.buttons button:active {
+    background-color: #4f46e5;
+}
+
 .main-content {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
@@ -89,11 +152,6 @@ header {
 
 div img {
     border-radius: 50%;
-}
-
-.person {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
 }
 
 .greeting {
